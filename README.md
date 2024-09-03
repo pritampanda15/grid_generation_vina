@@ -1,5 +1,5 @@
 Generating a grid for docking in AutoDock Vina without using GUI tools like MGLTools involves understanding the structure of the receptor (protein) and specifying the grid box parameters in a configuration file. There are two main approaches: blind docking and targeted docking.
-# Install Biopythonusing Virtual environment
+# Install Biopython using Virtual environment
 
 ````
 python -m venv vina  
@@ -11,7 +11,7 @@ pip install biopython
 
 ```
 python grid.py #for blind docking
-python targetted_grid.py # for target docking
+python targetted_grid.py # for targeted docking
 ```
 
 ## Blind Docking
